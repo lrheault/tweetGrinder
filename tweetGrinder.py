@@ -1,4 +1,4 @@
-#usr/bin/python
+#!usr/bin/python
 # -*- coding: utf-8 -*-
 
 #============================================================#
@@ -51,7 +51,7 @@ class tweetGrinder(object):
             self.length = length          
 
         for line in tweetStream:
-            if line and line!='\n' and line!=None:
+            if line:
                 try:
                     tweet = json.loads(line)
                     if 'user' in tweet:
