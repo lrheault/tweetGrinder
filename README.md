@@ -1,5 +1,5 @@
 # tweetGrinder
-A general Python class to process tweets by type and returning cleaned display text.  Contains an English filter.
+A general Python class to process tweets by type and returning the cleaned display text and other metadata.  Contains an English filter.
 
 Usage:
 
