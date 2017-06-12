@@ -17,7 +17,7 @@ for f in sorted(list_of_files):
 ```
 Output:
 
-The output csv files contain the following default columns: 
+The output csv file contains the following default columns: 
 <ol>
 <li> ID number </li>
 <li> Date </li>
