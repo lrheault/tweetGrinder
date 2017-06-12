@@ -5,13 +5,12 @@ Usage:
 
 ```python
 tg = tweetGrinder('desired_output_file.csv')
-
 tg.transform('input_streamed_json_file.json')
 ```
 
 Processing a batch of multiple files:
 
-<code> 
+```python 
 for f in sorted(list_of_files):
   tg.transform(f)
-</code>
+```
