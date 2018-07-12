@@ -72,7 +72,7 @@ class tweetGrinder(object):
                                                 display_text = text[st:en]
                                         else: 
                                             display_text = text
-                                        reference = 'quote_extended'
+                                        reference = 'retweet_quote_extended'
                                     else:
                                         text = tweet['text']
                                         if 'display_text_range' in tweet:
@@ -81,7 +81,7 @@ class tweetGrinder(object):
                                                 display_text = text[st:en]
                                         else: 
                                             display_text = text
-                                        reference = 'quote_normal'
+                                        reference = 'retweet_quote_normal'
                                 else:
                                     if 'extended_tweet' in tweet['retweeted_status']:
                                         text = tweet['retweeted_status']['extended_tweet']['full_text']
